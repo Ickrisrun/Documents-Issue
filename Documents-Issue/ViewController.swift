@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     
     func loadData(){
         
-        
         let db = Firestore.firestore()
         
         db.collection("posts").order(by: "timeStamp", descending: true).limit(to: 15).getDocuments() {(querySnapshot, err) in
