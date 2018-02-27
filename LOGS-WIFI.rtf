@@ -1,0 +1,1149 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
+{\*\expandedcolortbl;;\csgray\c13536;}
+\margl1440\margr1440\vieww24120\viewh16840\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \CocoaLigature0 2018-02-26 20:45:13.939033-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Core][I-COR000025] FIRAuth getUID implementation wasn't set.\
+2018-02-26 20:45:13.943608-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Firestore][I-FST000001] Committing <FSTWriteGroup for Start MutationQueue: 0 changes (0 bytes):>\
+2018-02-26 20:45:13.945897-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 start\
+2018-02-26 20:45:13.946525-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 watch: <GCFSListenRequest 0x1c00d5380>: \{\
+    database: "projects/springflyapp/databases/(default)"\
+    add_target \{\
+      query \{\
+        parent: "projects/springflyapp/databases/(default)"\
+        structured_query \{\
+          from \{\
+            collection_id: "posts"\
+          \}\
+          order_by \{\
+            field \{\
+              field_path: "timeStamp"\
+            \}\
+            direction: DESCENDING\
+          \}\
+          order_by \{\
+            field \{\
+              field_path: "__name__"\
+            \}\
+            direction: DESCENDING\
+          \}\
+          limit \{\
+            value: 15\
+          \}\
+        \}\
+      \}\
+      resume_token: "\\n\\t\\010\\200\\202\\325\\200\\374\\304\\331\\002"\
+      target_id: 2\
+    \}\
+\}\
+2018-02-26 20:45:13.950133-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS031010] Tracking view controller. Class, ID: ViewController, 5229727644459874947\
+2018-02-26 20:45:13.959070-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS031013] Screen view event not logged. App is not active.\
+2018-02-26 20:45:13.959479-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS023007] Firebase Analytics v.40009000 started\
+2018-02-26 20:45:13.959639-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)\
+2018-02-26 20:45:13.960155-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS023009] Debug logging enabled\
+2018-02-26 20:45:13.964609-0500 Documents-Issue[6055:2609760] 4.9.0 - [Firebase/Analytics][I-ACS003007] Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist\
+2018-02-26 20:45:14.357721-0500 Documents-Issue[6055:2609760] TIC Read Status [1:0x0]: 1:57\
+2018-02-26 20:45:14.357762-0500 Documents-Issue[6055:2609760] TIC Read Status [1:0x0]: 1:57\
+2018-02-26 20:45:14.388192-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Analytics][I-ACS029014] Successfully parsed a configuration. Version: 1519695130240035\
+2018-02-26 20:45:14.388458-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Analytics][I-ACS023016] Firebase Analytics is ready to receive events\
+2018-02-26 20:45:14.443376-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Analytics][I-ACS023080] Setting user property. Name, value: _fi, 1\
+2018-02-26 20:45:14.446814-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Analytics][I-ACS023087] User property set. Name, value: _fi, 1\
+2018-02-26 20:45:14.545032-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Analytics][I-ACS032003] iAd framework is not linked. Search Ad Attribution Reporter is disabled.\
+2018-02-26 20:45:14.547598-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS023024] No data to upload. Upload task will not be scheduled\
+2018-02-26 20:45:14.547837-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS033003] Scheduling user engagement timer\
+2018-02-26 20:45:14.547985-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS002002] Engagement timer scheduled to fire in approx. (s): 3600\
+2018-02-26 20:45:14.548146-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS023012] Firebase Analytics enabled\
+2018-02-26 20:45:14.548291-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS023051] Logging event: origin, name, params: auto, _vs, \{\
+    "_o" = auto;\
+    "_sc" = ViewController;\
+    "_si" = 5229727644459874947;\
+\}\
+2018-02-26 20:45:14.726187-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 headers (whitelisted): \{\
+    date = "Tue, 27 Feb 2018 01:45:14 GMT";\
+\}\
+2018-02-26 20:45:14.727035-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c02e1500>: \{\
+    target_change \{\
+      target_change_type: ADD\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.727425-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f4d00>: \{\
+    target_change \{\
+      resume_token: "\\n\\t\\010\\200\\202\\325\\200\\374\\304\\331\\002"\
+      read_time \{\
+        seconds: 1519695795\
+        nanos: 929344000\
+      \}\
+    \}\
+\}\
+2018-02-26 20:45:14.758082-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f4d00>: \{\
+    target_change \{\
+      target_change_type: RESET\
+      target_ids: 2\
+      resume_token: "\\n\\000"\
+    \}\
+\}\
+2018-02-26 20:45:14.864498-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f6780>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/tg8XImVkXhvjgc8OuNab"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "yay"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519598354\
+              nanos: 743795000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519598354\
+          nanos: 987087000\
+        \}\
+        update_time \{\
+          seconds: 1519598354\
+          nanos: 987087000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.886938-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f1a00>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/esUc1LVfMfER0IIVs2f1"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Lets go!"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519590181\
+              nanos: 807455000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519590182\
+          nanos: 53871000\
+        \}\
+        update_time \{\
+          seconds: 1519590215\
+          nanos: 209850000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.891213-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f1880>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/U6xPJesB8pjgXApzw50O"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "again here"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519586331\
+              nanos: 983900000\
+            \}\
+          \}\
+        \}\
+\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 1\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519586332\
+          nanos: 199103000\
+        \}\
+        update_time \{\
+          seconds: 1519599337\
+          nanos: 235889000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.895021-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f0c80>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/yRngHyDDbm5VIVRT9vIN"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "whats up"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519586321\
+              nanos: 753054000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519586322\
+          nanos: 178047000\
+        \}\
+        update_time \{\
+          seconds: 1519586322\
+          nanos: 178047000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.900511-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f2200>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/rYRfljeoZTalsu9CszMW"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "again"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519586056\
+              nanos: 300385000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519586056\
+          nanos: 785167000\
+        \}\
+        update_time \{\
+          seconds: 1519586056\
+          nanos: 785167000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.931599-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f2a80>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/Aq3NnUsm0EZRNQZNKx0F"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "What!"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519584918\
+              nanos: 802166000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519584918\
+          nanos: 970943000\
+        \}\
+        update_time \{\
+          seconds: 1519584918\
+          nanos: 970943000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.934114-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f6080>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/FIFz5yq4GdaFfpLQzGEt"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Another test post. "\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519584848\
+              nanos: 576936000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519584848\
+          nanos: 874047000\
+        \}\
+        update_time \{\
+          seconds: 1519584848\
+          nanos: 874047000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.937841-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c02e1500>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/Bl9EIZn5hva2zYxN05pm"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Test post on a Sunday. "\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519584783\
+              nanos: 668954000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519584783\
+          nanos: 866639000\
+        \}\
+        update_time \{\
+          seconds: 1519584783\
+          nanos: 866639000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.940142-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f3300>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/b77BU5ZDAPdAI5rRiO9U"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Hello post!"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519584567\
+              nanos: 633531000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519584567\
+          nanos: 876271000\
+        \}\
+        update_time \{\
+          seconds: 1519584567\
+          nanos: 876271000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.944514-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f5c00>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/XX4VmGxulhAYiCkkhfgj"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "This is a new post yo!"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 1\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1519523295\
+              nanos: 929268000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1519523306\
+          nanos: 481471000\
+        \}\
+        update_time \{\
+          seconds: 1519584572\
+          nanos: 228803000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+tg8XImVkXhvjgc8OuNab => ["content": yay, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 22:39:14 +0000, "username": jay]\
+esUc1LVfMfER0IIVs2f1 => ["content": Lets go!, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 20:23:01 +0000, "username": jay]\
+U6xPJesB8pjgXApzw50O => ["content": again here, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 1, "timeStamp": 2018-02-25 19:18:51 +0000, "username": jay]\
+yRngHyDDbm5VIVRT9vIN => ["content": whats up, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 19:18:41 +0000, "username": jay]\
+rYRfljeoZTalsu9CszMW => ["content": again, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 19:14:16 +0000, "username": jay]\
+Aq3NnUsm0EZRNQZNKx0F => ["content": What!, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 18:55:18 +0000, "username": jay]\
+FIFz5yq4GdaFfpLQzGEt => ["content": Another test post. , "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 18:54:08 +0000, "username": jay]\
+Bl9EIZn5hva2zYxN05pm => ["content": Test post on a Sunday. , "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 18:53:03 +0000, "username": jay]\
+b77BU5ZDAPdAI5rRiO9U => ["content": Hello post!, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 18:49:27 +0000, "username": jay]\
+XX4VmGxulhAYiCkkhfgj => ["content": This is a new post yo!, "likes_count": 1, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-25 01:48:15 +0000, "username": jay]\
+9aERgphyPOFBPr7hAuug => ["content": Creating a new post to check out some url variations. https://www.homeschool.com oh and a #math hashtag. , "likes_count": 1, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-18 22:11:53 +0000, "username": jay]\
+XLLr8gcDgfxtLbzzHPAZ => ["content": Another #science yay!!!!, "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 2, "timeStamp": 2018-02-16 03:38:29 +0000, "username": jay]\
+jaiE0qsLoIB5P0TamKHx => ["content": This is another #science test. , "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-14 04:15:51 +0000, "username": jay]\
+dz4YbTlwkmxV75npSImH => ["content": No hashtags here homie. , "likes_count": 0, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 0, "timeStamp": 2018-02-14 03:46:02 +0000, "username": jay]\
+ktAsf9LUVYAdw14IxRKO => ["content": Ok so here is our #math test for tags. #homeschool #science, "likes_count": 1, "advice": , "userID": diLG0tjM8vgjC2yRw0OS4PPWS7X2, "comments_count": 1, "timeStamp": 2018-02-14 03:42:52 +0000, "username": jay]\
+2018-02-26 20:45:14.951443-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f2980>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/9aERgphyPOFBPr7hAuug"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Creating a new post to check out some url variations. https://www.homeschool.com oh and a #math hashtag. "\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 1\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1518991913\
+              nanos: 907970000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1518991914\
+          nanos: 332287000\
+        \}\
+        update_time \{\
+          seconds: 1519519422\
+          nanos: 359469000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.954651-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f3380>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/XLLr8gcDgfxtLbzzHPAZ"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Another #science yay!!!!"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1518752309\
+              nanos: 718951000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 2\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1518752310\
+          nanos: 320047000\
+        \}\
+        update_time \{\
+          seconds: 1519599203\
+          nanos: 169946000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.956631-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f6280>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/jaiE0qsLoIB5P0TamKHx"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "This is another #science test. "\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1518581751\
+              nanos: 622740000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1518581752\
+          nanos: 261183000\
+        \}\
+        update_time \{\
+          seconds: 1518581752\
+          nanos: 261183000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.958274-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f6780>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/dz4YbTlwkmxV75npSImH"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "No hashtags here homie. "\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1518579962\
+              nanos: 668147000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 0\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1518579963\
+          nanos: 206751000\
+        \}\
+        update_time \{\
+          seconds: 1518913503\
+          nanos: 190455000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.959960-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f3680>: \{\
+    document_change \{\
+      document \{\
+        name: "projects/springflyapp/databases/(default)/documents/posts/ktAsf9LUVYAdw14IxRKO"\
+        fields \{\
+          key: "advice"\
+          value \{\
+            string_value: ""\
+          \}\
+        \}\
+        fields \{\
+          key: "content"\
+          value \{\
+            string_value: "Ok so here is our #math test for tags. #homeschool #science"\
+          \}\
+        \}\
+        fields \{\
+          key: "likes_count"\
+          value \{\
+            integer_value: 1\
+          \}\
+        \}\
+        fields \{\
+          key: "userID"\
+          value \{\
+            string_value: "diLG0tjM8vgjC2yRw0OS4PPWS7X2"\
+          \}\
+        \}\
+        fields \{\
+          key: "timeStamp"\
+          value \{\
+            timestamp_value \{\
+              seconds: 1518579772\
+              nanos: 180316000\
+            \}\
+          \}\
+        \}\
+        fields \{\
+          key: "username"\
+          value \{\
+            string_value: "jay"\
+          \}\
+        \}\
+        fields \{\
+          key: "comments_count"\
+          value \{\
+            integer_value: 1\
+          \}\
+        \}\
+        create_time \{\
+          seconds: 1518579772\
+          nanos: 836303000\
+        \}\
+        update_time \{\
+          seconds: 1519058583\
+          nanos: 837736000\
+        \}\
+      \}\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:14.963155-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f1a00>: \{\
+    target_change \{\
+      target_change_type: CURRENT\
+      target_ids: 2\
+      resume_token: "\\n\\t\\010\\315\\255\\255\\271\\374\\304\\331\\002"\
+      read_time \{\
+        seconds: 1519695914\
+        nanos: 817229000\
+      \}\
+    \}\
+\}\
+2018-02-26 20:45:14.963227-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c40f1880>: \{\
+    target_change \{\
+      resume_token: "\\n\\t\\010\\315\\255\\255\\271\\374\\304\\331\\002"\
+      read_time \{\
+        seconds: 1519695914\
+        nanos: 817229000\
+      \}\
+    \}\
+\}\
+2018-02-26 20:45:14.964096-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] Committing <FSTWriteGroup for Apply remote event: 78 changes (4406 bytes):\
+  - Delete [target_document: targetID=2 key=posts/9aERgphyPOFBPr7hAuug]\
+  - Delete [document_target: key=posts/9aERgphyPOFBPr7hAuug targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/Aq3NnUsm0EZRNQZNKx0F]\
+  - Delete [document_target: key=posts/Aq3NnUsm0EZRNQZNKx0F targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/Bl9EIZn5hva2zYxN05pm]\
+  - Delete [document_target: key=posts/Bl9EIZn5hva2zYxN05pm targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/FIFz5yq4GdaFfpLQzGEt]\
+  - Delete [document_target: key=posts/FIFz5yq4GdaFfpLQzGEt targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/U6xPJesB8pjgXApzw50O]\
+  - Delete [document_target: key=posts/U6xPJesB8pjgXApzw50O targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/XLLr8gcDgfxtLbzzHPAZ]\
+  - Delete [document_target: key=posts/XLLr8gcDgfxtLbzzHPAZ targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/XX4VmGxulhAYiCkkhfgj]\
+  - Delete [document_target: key=posts/XX4VmGxulhAYiCkkhfgj targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/b77BU5ZDAPdAI5rRiO9U]\
+  - Delete [document_target: key=posts/b77BU5ZDAPdAI5rRiO9U targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/dz4YbTlwkmxV75npSImH]\
+  - Delete [document_target: key=posts/dz4YbTlwkmxV75npSImH targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/esUc1LVfMfER0IIVs2f1]\
+  - Delete [document_target: key=posts/esUc1LVfMfER0IIVs2f1 targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/jaiE0qsLoIB5P0TamKHx]\
+  - Delete [document_target: key=posts/jaiE0qsLoIB5P0TamKHx targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/ktAsf9LUVYAdw14IxRKO]\
+  - Delete [document_target: key=posts/ktAsf9LUVYAdw14IxRKO targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/rYRfljeoZTalsu9CszMW]\
+  - Delete [document_target: key=posts/rYRfljeoZTalsu9CszMW targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/tg8XImVkXhvjgc8OuNab]\
+  - Delete [document_target: key=posts/tg8XImVkXhvjgc8OuNab targetID=2]\
+  - Delete [target_document: targetID=2 key=posts/yRngHyDDbm5VIVRT9vIN]\
+  - Delete [document_target: key=posts/yRngHyDDbm5VIVRT9vIN targetID=2]\
+  - Put [target_document: targetID=2 key=posts/9aERgphyPOFBPr7hAuug] (0 bytes)\
+  - Put [document_target: key=posts/9aERgphyPOFBPr7hAuug targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/Aq3NnUsm0EZRNQZNKx0F] (0 bytes)\
+  - Put [document_target: key=posts/Aq3NnUsm0EZRNQZNKx0F targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/Bl9EIZn5hva2zYxN05pm] (0 bytes)\
+  - Put [document_target: key=posts/Bl9EIZn5hva2zYxN05pm targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/FIFz5yq4GdaFfpLQzGEt] (0 bytes)\
+  - Put [document_target: key=posts/FIFz5yq4GdaFfpLQzGEt targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/U6xPJesB8pjgXApzw50O] (0 bytes)\
+  - Put [document_target: key=posts/U6xPJesB8pjgXApzw50O targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/XLLr8gcDgfxtLbzzHPAZ] (0 bytes)\
+  - Put [document_target: key=posts/XLLr8gcDgfxtLbzzHPAZ targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/XX4VmGxulhAYiCkkhfgj] (0 bytes)\
+  - Put [document_target: key=posts/XX4VmGxulhAYiCkkhfgj targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/b77BU5ZDAPdAI5rRiO9U] (0 bytes)\
+  - Put [document_target: key=posts/b77BU5ZDAPdAI5rRiO9U targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/dz4YbTlwkmxV75npSImH] (0 bytes)\
+  - Put [document_target: key=posts/dz4YbTlwkmxV75npSImH targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/esUc1LVfMfER0IIVs2f1] (0 bytes)\
+  - Put [document_target: key=posts/esUc1LVfMfER0IIVs2f1 targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/jaiE0qsLoIB5P0TamKHx] (0 bytes)\
+  - Put [document_target: key=posts/jaiE0qsLoIB5P0TamKHx targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/ktAsf9LUVYAdw14IxRKO] (0 bytes)\
+  - Put [document_target: key=posts/ktAsf9LUVYAdw14IxRKO targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/rYRfljeoZTalsu9CszMW] (0 bytes)\
+  - Put [document_target: key=posts/rYRfljeoZTalsu9CszMW targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/tg8XImVkXhvjgc8OuNab] (0 bytes)\
+  - Put [document_target: key=posts/tg8XImVkXhvjgc8OuNab targetID=2] (0 bytes)\
+  - Put [target_document: targetID=2 key=posts/yRngHyDDbm5VIVRT9vIN] (0 bytes)\
+  - Put [document_target: key=posts/yRngHyDDbm5VIVRT9vIN targetID=2] (0 bytes)\
+  - Put [target: targetID=2] (124 bytes)\
+  - Put [query_target: canonicalID=posts|f:|ob:timeStampdesc__name__desc|l:15 targetID=2] (0 bytes)\
+  - Put [target_global:] (18 bytes)\
+  - Put [remote_document: key=posts/Bl9EIZn5hva2zYxN05pm] (284 bytes)\
+  - Put [remote_document: key=posts/jaiE0qsLoIB5P0TamKHx] (291 bytes)\
+  - Put [remote_document: key=posts/U6xPJesB8pjgXApzw50O] (270 bytes)\
+  - Put [remote_document: key=posts/yRngHyDDbm5VIVRT9vIN] (268 bytes)\
+  - Put [remote_document: key=posts/FIFz5yq4GdaFfpLQzGEt] (280 bytes)\
+  - Put [remote_document: key=posts/b77BU5ZDAPdAI5rRiO9U] (272 bytes)\
+  - Put [remote_document: key=posts/esUc1LVfMfER0IIVs2f1] (268 bytes)\
+  - Put [remote_document: key=posts/9aERgphyPOFBPr7hAuug] (366 bytes)\
+  - Put [remote_document: key=posts/dz4YbTlwkmxV75npSImH] (284 bytes)\
+  - Put [remote_document: key=posts/Aq3NnUsm0EZRNQZNKx0F] (266 bytes)\
+  - Put [remote_document: key=posts/rYRfljeoZTalsu9CszMW] (266 bytes)\
+  - Put [remote_document: key=posts/tg8XImVkXhvjgc8OuNab] (264 bytes)\
+  - Put [remote_document: key=posts/XLLr8gcDgfxtLbzzHPAZ] (284 bytes)\
+  - Put [remote_document: key=posts/XX4VmGxulhAYiCkkhfgj] (282 bytes)\
+  - Put [remote_document: key=posts/ktAsf9LUVYAdw14IxRKO] (319 bytes)>\
+2018-02-26 20:45:14.977763-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c00f1b80>: \{\
+    target_change \{\
+      resume_token: "\\n\\t\\010\\351\\313\\256\\271\\374\\304\\331\\002"\
+      read_time \{\
+        seconds: 1519695914\
+        nanos: 837481000\
+      \}\
+    \}\
+\}\
+2018-02-26 20:45:14.978502-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] Committing <FSTWriteGroup for Apply remote event: 1 changes (18 bytes):\
+  - Put [target_global:] (18 bytes)>\
+2018-02-26 20:45:14.978793-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] Committing <FSTWriteGroup for Release query: 0 changes (0 bytes):>\
+2018-02-26 20:45:14.978932-0500 Documents-Issue[6055:2609762] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 unwatch: <GCFSListenRequest 0x1c42d6f80>: \{\
+    database: "projects/springflyapp/databases/(default)"\
+    remove_target: 2\
+\}\
+2018-02-26 20:45:15.009158-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Firestore][I-FST000001] FSTWatchStream 0x1c00d54d0 response: <GCFSListenResponse 0x1c00f0780>: \{\
+    target_change \{\
+      target_change_type: REMOVE\
+      target_ids: 2\
+    \}\
+\}\
+2018-02-26 20:45:15.487711-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/InstanceID][I-IID009000] Cannot retrieve keypair with tag com.google.iid-|K|\
+2018-02-26 20:45:15.503741-0500 Documents-Issue[6055:2609755] 4.9.0 - [Firebase/Analytics][I-ACS023072] Event logged. Event name, event params: _vs, \{\
+    "_o" = auto;\
+    "_sc" = ViewController;\
+    "_si" = 5229727644459874947;\
+\}\
+2018-02-26 20:45:15.510989-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS002002] Measurement timer scheduled to fire in approx. (s): 3474.564445018768\
+2018-02-26 20:45:15.511031-0500 Documents-Issue[6055:2609772] 4.9.0 - [Firebase/Analytics][I-ACS023028] Upload task scheduled to be executed in approx. (s): 3474.564445018768\
+}

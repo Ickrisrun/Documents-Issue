@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>178296548506-h31cgur28rq0n741d0ucfofcjippnl95.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.178296548506-h31cgur28rq0n741d0ucfofcjippnl95</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTURjgUgYELHtisQLX2_spRCVZHvwU3UM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>178296548506</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>co.ickrisrun.Documents-Issue</string>
+	<key>PROJECT_ID</key>
+	<string>springflyapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>springflyapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:178296548506:ios:0630c75211f3814a</string>
+	<key>DATABASE_URL</key>
+	<string>https://springflyapp.firebaseio.com</string>
+</dict>
+</plist>

@@ -7,13 +7,50 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        loadData()
+        
+        
     }
+    
+    
+    
+    func loadData(){
+        
+        
+        let db = Firestore.firestore()
+        
+        db.collection("posts").order(by: "timeStamp", descending: true).limit(to: 15).getDocuments() {(querySnapshot, err) in
+            
+            if let err = err {
+                print("\(err.localizedDescription)")
+                
+            }else{
+                
+                
+                
+                for document in querySnapshot!.documents{
+                    
+                    print("\(document.documentID) => \(document.data())")
+                    
+                    
+                }
+                
+                
+            }
+            
+            
+        }
+        
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
